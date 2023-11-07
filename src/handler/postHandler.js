@@ -4,7 +4,7 @@ const postHandler = {}
 
 const urlPost = "https://jsonplaceholder.typicode.com/posts";
 const urlComment = "https://jsonplaceholder.typicode.com/comments";
-const urlMerge = [].concat(urlComment,urlPost);
+//const urlMerge = [].concat(urlComment,urlPost);
 
 postHandler.getAllPost = (req,res) => {
     fetch(urlPost)
